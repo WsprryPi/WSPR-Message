@@ -30,7 +30,7 @@ Ensure you have the following installed:
 Clone the repository:
 
 ```bash
-git clone https://github.com/lbussy/WSPR-Message.git
+git clone https://github.com/WsprryPi/WSPR-Message.git
 cd WSPR-Message
 ```
 
