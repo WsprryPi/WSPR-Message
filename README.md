@@ -11,7 +11,7 @@ This implementation follows the WSPR protocol, converting user-specified paramet
 - 📡 **Generates WSPR symbol sequences** from callsign, Maidenhead grid locator, and power level.
 - 🔤 **Handles callsign formatting** and automatic uppercase conversion.
 - 🛠️ **Efficient bitwise operations** for symbol encoding.
-- 📝 **C++17 compatible** with memory-safe design.
+- 📝 **C++20 compatible** with memory-safe design.
 - 📊 **CLI Output** for debugging and testing.
 
 ## 📦 Installation
@@ -20,7 +20,7 @@ This implementation follows the WSPR protocol, converting user-specified paramet
 
 Ensure you have the following installed:
 
-- `g++` (C++17 or later)
+- `g++` (C++20 or later)
 - `Make` (for building)
 - `clang-tidy` (for linting, optional)
 - `cppcheck` (for static analysis, optional)
@@ -118,7 +118,7 @@ I welcome contributions! To contribute:
 
 ### 📝 Coding Guidelines
 
-- Follow modern C++ best practices (C++17 and later).
+- Follow modern C++ best practices (C++20 and later).
 - Ensure memory safety (`delete[]` for allocated memory).
 - Use Doxygen-style comments for documentation.
 - Run `make lint` before submitting a pull request.

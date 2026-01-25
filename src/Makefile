@@ -27,7 +27,7 @@
 # Debug flag
 DEBUG := -DDEBUG_TEST
 # C++ Version
-CXXVER := 17
+CXXVER :=20
 # Prefix for executing tests, "sudo" if required
 SUDO := #sudo
 
