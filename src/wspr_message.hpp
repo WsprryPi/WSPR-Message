@@ -23,6 +23,16 @@
  * SOFTWARE.
  */
 
+/**
+ * @note
+ * This implementation currently supports WSPR Type 1 message encoding only.
+ *
+ * Future work:
+ * - Add support for WSPR Type 2 and Type 3 message formats.
+ * - Refactor into a mode-dispatch encoder (e.g., encodeType1/2/3).
+ * - Integrate with WsprMessageConfig / WsprSymbolSequence abstraction.
+ */
+
 #ifndef WSPR_MESSAGE_H
 #define WSPR_MESSAGE_H
 
@@ -127,6 +137,9 @@ private:
      * @param str The string to convert.
      */
     static void to_upper(std::string &str);
+
+    // TODO: Extend encoder to support WSPR Type 2 and Type 3 message formats.
+    //       This function currently implements Type 1 encoding only.
 
     /**
      * @brief Generates WSPR symbols based on callsign, location, and power.
