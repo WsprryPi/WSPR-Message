@@ -138,9 +138,6 @@ private:
      */
     static void to_upper(std::string &str);
 
-    // TODO: Extend encoder to support WSPR Type 2 and Type 3 message formats.
-    //       This function currently implements Type 1 encoding only.
-
     /**
      * @brief Generates WSPR symbols based on callsign, location, and power.
      *
